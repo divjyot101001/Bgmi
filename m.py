@@ -14,7 +14,7 @@ from threading import Thread
 loop = asyncio.get_event_loop()
 TOKEN = '8061494469:AAH6yguV_GS6Z2dozTzCKms_5D60FuuxVSg'
 MONGO_URI = 'mongodb+srv://ihatemosquitos9:JvOK4gNs0SH5SVw9@cluster0.1pd5kt5.mongodb.net/?appName=Cluster0'
-CHANNEL_ID = -1002416240231
+CHANNEL_ID = -1002971516109
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 client = MongoClient(MONGO_URI, tlsCAFile=certifi.where())
@@ -200,7 +200,7 @@ def send_welcome(message):
 
     markup.add(btn1, btn2, btn3, btn4)
 
-    bot.send_message(message.chat.id, "*🔆 WELCOME TO VIP LSR DDOS BOT 🔆*", reply_markup=markup, parse_mode='Markdown')
+    bot.send_message(message.chat.id, "*🔆 WELCOME TO VIP MASTER OF OSINTS DDOS BOT 🔆*", reply_markup=markup, parse_mode='Markdown')
 
 
 @bot.message_handler(func=lambda message: True)
